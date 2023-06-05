@@ -169,3 +169,42 @@ a{
 .dark{
     color: var(--text);
 }
+/***********************
+    DASHBOARD MAIN
+************************/
+.main_content{
+    flex: 1;
+    padding: 40px;
+}
+/*Topbar*/
+.topbar h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+.bar{
+    flex: 0 0 65%;
+}
+.search{
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary);
+    color: var(--text);
+    border-radius: 20px;
+}
+.btn{
+    color: var(--bg);
+    background-color: var(--primary);
+    padding: 12px 22px;
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.notification{
+    padding: 10px 12px;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    cursor: pointer;
+}

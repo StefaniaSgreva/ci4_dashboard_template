@@ -3,6 +3,8 @@
 
 <div class="dashboard">
     <?= $this->include('admin/sidebar') ?>
+    <?= $this->include('admin/main_content') ?>
+
 </div>
 
 <?= $this->endSection() ?>
