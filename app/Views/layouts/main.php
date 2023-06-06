@@ -17,5 +17,8 @@
 <body>
     <!-- PAGES CONTENT -->
     <?= $this->renderSection('content') ?>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
