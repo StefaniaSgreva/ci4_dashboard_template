@@ -4,14 +4,16 @@
         <h2>Statistics</h2>
 
         <div class="bar flex flex_sb">
-            <input type="text" class="search" 
-            placeholder="Search something">
-
+            <div class="search_bar">
+                <i class="uil uil-search"></i>
+                <input type="text" class="search" 
+                placeholder="Search something">
+            </div>
+            
             <a href="#" class="btn">Upgrade</a>
 
-            <div class="notification flex">
-                <i class="uil uil-bell"></i>
-            </div>
+            <i class="uil uil-bell notification"></i>
+            
         </div>
     </div>
 
@@ -51,7 +53,7 @@
                 <div>/ 2023</div>
             </div>
 
-            <div class="report_btn download flex">
+            <div class="download flex">
                 <small>Download Report</small>
                 <i class="uil uil-file-download"></i>
             </div>
@@ -90,8 +92,9 @@
                 <div class="border"></div>
 
                 <div class="cut">
-                    <div>- 10%</div>
-                    <div>Since last day</div>
+                    <small>- 10%</small>
+                    <br>
+                    <small>Since last day</small>
                 </div>
             </div>
         </div>
